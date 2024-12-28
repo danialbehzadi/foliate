@@ -2,13 +2,14 @@
 # Copyright (C) 2020 THE com.github.johnfactotum.Foliate'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the com.github.johnfactotum.Foliate package.
 # Meysam Pour Ganji <p.g.meysam@gmail.com>, 2023.
+# Danial Behzadi <dani.behzi@ubuntu.com>, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: com.github.johnfactotum.Foliate\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-28 11:04+0800\n"
-"PO-Revision-Date: 2023-12-13 12:45+0330\n"
+"PO-Revision-Date: 2024-12-28 13:22+0330\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
-"X-Generator: Poedit 3.4.1\n"
+"X-Generator: Poedit 3.5\n"
 
 #: src/annotations.js:137 src/annotations.js:172
 msgid "Bookmark deleted"
@@ -133,7 +134,9 @@ msgstr "خوانش رایاکتاب در سبک"
 #. they will be shown in the "About" dialog
 #: src/app.js:405
 msgid "translator-credits"
-msgstr "میثم پورگنجی"
+msgstr ""
+"میثم پورگنجی <p.g.meysam@gmail.com>\n"
+"دانیال بهزادی <dani.behzi@ubuntu.com>"
 
 #: src/app.js:414
 msgid "Source Code"
@@ -335,20 +338,19 @@ msgstr "از %d"
 
 #: src/library.js:47
 msgid "Loading"
-msgstr ""
+msgstr "بار کردن"
 
 #: src/library.js:48
-#, fuzzy
 msgid "Failed to Load"
-msgstr "در کلیپ‌بورد کپی شد"
+msgstr "شکست در بار کردن"
 
 #: src/library.js:49 src/ui/book-viewer.ui:15
 msgid "Reload"
-msgstr "بارکردن مجدد"
+msgstr "بازخوانی"
 
 #: src/library.js:51
 msgid "See All"
-msgstr ""
+msgstr "دیدن همه"
 
 #: src/library.js:52 src/ui/library.ui:124 src/ui/library.ui:182
 msgid "Search"
@@ -356,44 +358,43 @@ msgstr "جست‌وجو"
 
 #: src/library.js:53
 msgid "Filter"
-msgstr ""
+msgstr "پالایش"
 
 #: src/library.js:55 src/library.js:57
 msgid "Download"
-msgstr ""
+msgstr "بارگیری"
 
 #: src/library.js:56
 msgid "Buy"
-msgstr ""
+msgstr "خرید"
 
 #: src/library.js:58
-#, fuzzy
 msgid "Preview"
-msgstr "قبلی"
+msgstr "پیش‌نمایش"
 
 #: src/library.js:59
 msgid "Sample"
-msgstr ""
+msgstr "نمونه"
 
 #: src/library.js:60
 msgid "Borrow"
-msgstr ""
+msgstr "قرض"
 
 #: src/library.js:61
 msgid "Subscribe"
-msgstr ""
+msgstr "اشتراک"
 
 #: src/library.js:63
 msgid "Free"
-msgstr ""
+msgstr "رایگان"
 
 #: src/library.js:65
 msgid "First"
-msgstr ""
+msgstr "نخستین"
 
 #: src/library.js:66 src/ui/navbar.ui:8 src/ui/tts-box.ui:115
 msgid "Previous"
-msgstr "قبلی"
+msgstr "پیشین"
 
 #: src/library.js:67 src/ui/navbar.ui:124 src/ui/tts-box.ui:132
 msgid "Next"
@@ -401,25 +402,23 @@ msgstr "بعدی"
 
 #: src/library.js:68
 msgid "Last"
-msgstr ""
+msgstr "آخرین"
 
 #: src/library.js:70
-#, fuzzy
 msgid "Search Terms"
-msgstr "جست‌وجو"
+msgstr "عبارت‌های جست‌وجو"
 
 #: src/library.js:72
 msgid "Title"
-msgstr ""
+msgstr "عنوان"
 
 #: src/library.js:73
 msgid "Author"
-msgstr ""
+msgstr "نگارنده"
 
 #: src/library.js:74
-#, fuzzy
 msgid "Contributor"
-msgstr "مشارکت‌کنندگان"
+msgstr "مشارکت‌کننده"
 
 #: src/library.js:438
 msgid "Remove Book?"
@@ -438,43 +437,40 @@ msgid "_Remove"
 msgstr "_برداشتن"
 
 #: src/library.js:472
-#, fuzzy
 msgid "Failed to Open"
-msgstr "در کلیپ‌بورد کپی شد"
+msgstr "شکست در گشودن"
 
 #: src/library.js:473
 msgid "Could not open the file with the selected application"
-msgstr ""
+msgstr "نتوانست پرونده را با برنامهٔ گزیده بگشاید"
 
 #: src/library.js:644
 msgid "Download Failed"
-msgstr ""
+msgstr "بارگیری شکست خورد"
 
 #: src/library.js:698
 msgid "Rename…"
-msgstr ""
+msgstr "تغییر نام…"
 
 #: src/library.js:699 src/ui/book-item.ui:25 src/ui/book-row.ui:25
 msgid "Remove"
-msgstr "حذف"
+msgstr "برداشتن"
 
 #: src/library.js:719 src/library.js:720
 msgid "Rename"
-msgstr ""
+msgstr "تغییر نام"
 
 #: src/library.js:725
 msgid "Name"
-msgstr ""
+msgstr "نام"
 
 #: src/library.js:740
-#, fuzzy
 msgid "All Books"
-msgstr "کتاب"
+msgstr "همهٔ کتاب‌ها"
 
 #: src/library.js:746
-#, fuzzy
 msgid "Add Catalog…"
-msgstr "افزودن حاشیه…"
+msgstr "افزودن کالانما…"
 
 #: src/library.js:813 src/ui/book-viewer.ui:130 src/ui/book-viewer.ui:239
 #: src/ui/library.ui:93
@@ -483,29 +479,31 @@ msgstr "کتابخانه"
 
 #: src/library.js:821
 msgid "Catalogs"
-msgstr ""
+msgstr "کالانماها"
 
 #: src/library.js:864
 msgid "Catalog removed"
-msgstr ""
+msgstr "کالانما برداشته شد"
 
 #: src/library.js:951 src/library.js:956
 msgid "Add Catalog"
-msgstr ""
+msgstr "افزودن کالانما"
 
 #: src/library.js:952
 msgid "Add"
-msgstr ""
+msgstr "افزودن"
 
 #: src/library.js:957
 msgid ""
-"You can browse and download books from OPDS catalogs. <a href=\"https://opds."
-"io\">Learn More…</a>"
+"You can browse and download books from OPDS catalogs. <a href=\"https://"
+"opds.io\">Learn More…</a>"
 msgstr ""
+"می‌توانید کتاب‌ها را از کالانماهای OPDS مرور و بارگیری کنید. <a href=\"https://"
+"opds.io\">دانستن بیش‌تر…</a>"
 
 #: src/library.js:961
 msgid "URL"
-msgstr ""
+msgstr "نشانی"
 
 #. Translators: Do NOT translate! The is the application name!
 #: src/main.js:28 data/com.github.johnfactotum.Foliate.desktop.in:4
@@ -538,12 +536,12 @@ msgstr "ویکی‌پدیا"
 
 #: src/selection-tools.js:50
 msgid ""
-"From <a id=\"link\">Wikipedia</a>, released under the <a href=\"https://en."
-"wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-"
+"From <a id=\"link\">Wikipedia</a>, released under the <a href=\"https://"
+"en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-"
 "ShareAlike_4.0_International_License\">CC BY-SA License</a>."
 msgstr ""
-"از <a id=\"link\">ویکی‌پدیا</a>، انتشاریافته تحت <a href=\"https://en."
-"wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-"
+"از <a id=\"link\">ویکی‌پدیا</a>، انتشاریافته تحت <a href=\"https://"
+"en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-"
 "ShareAlike_4.0_International_License\">CC BY-SA مجوز</a>."
 
 #: src/selection-tools.js:52
@@ -563,9 +561,8 @@ msgid "Cannot retrieve translation"
 msgstr "ناتوانی در گرفتن ترجمه"
 
 #: src/selection-tools.js:67
-#, fuzzy
 msgid "Search…"
-msgstr "جست‌وجو"
+msgstr "جست‌وجو…"
 
 #: src/themes.js:8
 msgid "Default"
@@ -609,8 +606,7 @@ msgstr "خطای گفتاربه‌متن"
 
 #: src/tts.js:118
 msgid "Make sure Speech Dispatcher is installed and working on your system"
-msgstr ""
-"اطمینان حاصل کنید که Speech Dispatcher بر روی سیستم شما نصب است و کار می‌کند"
+msgstr "اطمینان حاصل کنید که Speech Dispatcher بر روی سیستم شما نصب است و کار می‌کند"
 
 #: src/utils.js:168
 msgid "Copied to clipboard"
@@ -640,7 +636,7 @@ msgstr "گشودن در پنجرهٔ جدید"
 
 #: src/ui/book-item.ui:9 src/ui/book-row.ui:9
 msgid "Open with External App"
-msgstr ""
+msgstr "گشودن با کارهٔ خارجی"
 
 #: src/ui/book-item.ui:19 src/ui/book-row.ui:19 src/ui/book-viewer.ui:25
 msgid "Export Annotations…"
@@ -821,8 +817,7 @@ msgstr "قالب"
 #: src/ui/export-dialog.ui:29
 msgid "Choose “JSON” if you plan on importing annotations back to Foliate"
 msgstr ""
-"اگر می‌خواهید یادداشت‌ها را در برگه درون‌ریزی کنید، گزینهٔ \"JSON\" را انتخاب "
-"کنید"
+"اگر می‌خواهید یادداشت‌ها را در برگه درون‌ریزی کنید، گزینهٔ \"JSON\" را انتخاب کنید"
 
 #: src/ui/export-dialog.ui:33
 msgid "JSON"
@@ -865,8 +860,7 @@ msgid "Import"
 msgstr "درون‌ریزی"
 
 #: src/ui/import-dialog.ui:33
-msgid ""
-"The identifier doesn’t match. These annotations may not be for this book."
+msgid "The identifier doesn’t match. These annotations may not be for this book."
 msgstr "شناسه یافت نشد. شاید یادداشت‌ها برای این کتاب نیستند."
 
 #: src/ui/import-dialog.ui:34
@@ -890,14 +884,12 @@ msgid "Main Menu"
 msgstr "فهرست اصلی"
 
 #: src/ui/library.ui:110
-#, fuzzy
 msgid "Open"
-msgstr "گشودن…"
+msgstr "گشودن"
 
 #: src/ui/library.ui:117
-#, fuzzy
 msgid "Library Menu"
-msgstr "کتابخانه"
+msgstr "فهرست کتابخانه"
 
 #: src/ui/library.ui:134
 msgid "Search library…"
@@ -1037,7 +1029,7 @@ msgstr "بی‌سرکش"
 
 #: src/ui/view-preferences-window.ui:56
 msgid "Override Publisher Font"
-msgstr ""
+msgstr "پایمالی قلم ناشر"
 
 #: src/ui/view-preferences-window.ui:71
 msgid "Serif Font"
@@ -1101,7 +1093,7 @@ msgstr "رنگ"
 
 #: src/ui/view-preferences-window.ui:240
 msgid "Behavior"
-msgstr ""
+msgstr "رفتار"
 
 #: src/ui/view-preferences-window.ui:246
 msgid "Reduce Animation"
@@ -1118,13 +1110,13 @@ msgstr "رایاکتاب;کتاب;EPUB;بیننده;خواننده;"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:10
 msgid ""
-"Discover a new chapter in reading with Foliate, the modern e-book reader "
-"tailored for GNOME. Immerse yourself in a distraction-free interface, with "
-"customization features designed to match your unique preferences."
+"Discover a new chapter in reading with Foliate, the modern e-book reader tailored "
+"for GNOME. Immerse yourself in a distraction-free interface, with customization "
+"features designed to match your unique preferences."
 msgstr ""
-"فصلی جدید در خواندن با با برگه، رایاکتاب‌خوان نوین ساخته شده برای گنوم کشف "
-"کنید. با ویژگی‌های سفارشی سازی طرّاحی شده برای تطبیق با ترجیحات منحصر به "
-"فردتان، خود را در میانایی بدون حواس‌پرتی غوطه‌ور کنید."
+"فصلی جدید در خواندن با با برگه، رایاکتاب‌خوان نوین ساخته شده برای گنوم کشف کنید. "
+"با ویژگی‌های سفارشی سازی طرّاحی شده برای تطبیق با ترجیحات منحصر به فردتان، خود را "
+"در میانایی بدون حواس‌پرتی غوطه‌ور کنید."
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:11
 msgid "Features include:"
@@ -1164,49 +1156,48 @@ msgstr "جست‌وجوی سریع واژه‌نامه"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:55
 msgid "Fixed end of chapter cut off when chapter starts with page break"
-msgstr ""
+msgstr "درست کردن بریدن پایان فصل هنگام آغاز فصل با شکستن صفحه"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:56
 msgid "Fixed incorrect text wrapping in tables"
-msgstr ""
+msgstr "درست کردن شکاندن نادرست متن در جدول‌ها"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:57
 msgid "Fixed a performance issue with OPDS catalogs"
-msgstr ""
+msgstr "درست کردن مشکل کارایی کالانماهای OPDS"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:64
 msgid "Added support for OPDS catalogs, now with support for OPDS 2.0"
-msgstr ""
+msgstr "افزودن پشتیبانی از کالانماهای OPDS با نگارش ۲٫۰"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:65
 msgid "Added option to override publisher font"
-msgstr ""
+msgstr "افزودن گزینه برای پایمالی قلم ناشر"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:66
 msgid "Added option to reduce animation"
-msgstr ""
+msgstr "افزودن گزینه برای کاستن پویانمایی"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:67
 msgid "Added support for JPEG XL in CBZ"
-msgstr ""
+msgstr "افزودن پشتیبانی JPEG XL در CBZ"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:68
 msgid "Fixed getting file from Tracker in Flatpak"
-msgstr ""
+msgstr "درست کردن گرفتن پرونده از ردیاب در فلت‌پک"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:69
 msgid "Fixed parsing of non-year-only first-century and BCE dates"
-msgstr ""
+msgstr "درست کردن تجزیهٔ تاریخ‌های BCE و non-year-only first-century"
 
 #: data/com.github.johnfactotum.Foliate.metainfo.xml.in:76
 msgid ""
-"Foliate has been rewritten from scratch with a new e-book rendering library "
-"and the latest platform libraries, GTK 4 and Libadwaita, with refreshed UI "
-"and improved performance."
+"Foliate has been rewritten from scratch with a new e-book rendering library and "
+"the latest platform libraries, GTK 4 and Libadwaita, with refreshed UI and "
+"improved performance."
 msgstr ""
-"برگه با یک کتابخانهٔ تفسیر رایاکتاب‌خوان و آخرین کتابخانه‌های سکو، GTK4 و "
-"Libadwaita به همراه یک رابط کاربری تازه و با کارایی بالاتر از ابتدا بازنویسی "
-"شده است."
+"برگه با یک کتابخانهٔ تفسیر رایاکتاب‌خوان و آخرین کتابخانه‌های سکو، GTK4 و Libadwaita "
+"به همراه یک رابط کاربری تازه و با کارایی بالاتر از ابتدا بازنویسی شده است."
 
 #~ msgid "Book"
 #~ msgstr "کتاب"
